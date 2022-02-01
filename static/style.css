@@ -90,7 +90,7 @@ html,body{
 }
 
 section#inicio{
-    background-image: url(./img/banner.jpg);
+    background-image: url(./img/IMG_20220201_104925.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -124,7 +124,7 @@ section#inicio h2 {
   i.menu-mobile{
       position: fixed;
       color: #fff;
-      background-color: #252c90;
+      background-color: #021124;
       right: 1rem;
       top: 1rem;
       font-size: 1.5rem;
@@ -164,3 +164,17 @@ section#inicio h2 {
         margin-left: 0; 
     }
 }
+
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff ;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #29292b;
+  }
