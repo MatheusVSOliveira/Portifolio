@@ -178,3 +178,7 @@ section#inicio h2 {
   *::-webkit-scrollbar-thumb {
     background-color: #29292b;
   }
+
+  .section-bg {
+      background-color: #eff5ff;
+  }
