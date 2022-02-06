@@ -507,6 +507,68 @@
             </div>
         </section>
 
+        <section class="pt-5 pb-5" id="contato">
+
+            <div class="container mb-5">
+                <h2 class='pt-3 pb-3'>Contato</h2>
+
+                <div class="row">
+
+                    <div class="col-md-5">
+                        <div class="card p-5 shadow border-0" data-anime="up">
+                            <div class="endereco">
+                                <h4><i class="bi bi-geo-alt"></i> Localização:</h4>
+                                <p>São Paulo, SP</p>
+                            </div>
+
+                            <div class="email">
+                                <h4><i class="bi bi-envelope"></i> Email:</h4>
+                                <p>matheusvsoliveira61@gmail.com</p>
+                            </div>
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.0607026034!2d-46.65832888502008!3d-23.673787084627214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce454c0a369027%3A0xd007359a75780983!2sR.%20Ant%C3%B4nio%20Loti%20-%20Vila%20Joaniza%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004405-230!5e0!3m2!1spt-BR!2sbr!4v1644162576404!5m2!1spt-BR!2sbr" 
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                class='w-100'></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7 mt-5 mt-md-0">
+                        <div class="card p-5 h-100 shadow border-0" data-anime="left">
+
+                            <form class="row g-3" action='/send' method="POST">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome:</label>
+                                    <input type="text" class="form-control" id="nome" name='nome'
+                                        placeholder='Digite seu nome' required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" name='email'
+                                        placeholder='Digite seu email' required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="mensagem" class="form-label">Mensagem:</label>
+                                    <textarea type="text" class="form-control" id="mensagem" name='mensagem' rows="10"
+                                        placeholder="Digite sua mensagem" required></textarea>
+                                </div>
+
+
+                                <div class="col-12 d-flex justify-content-center mt-4">
+                                    <button id='btn-enviar' type="submit" class="btn btn-primary">Enviar
+                                        mensagem</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
